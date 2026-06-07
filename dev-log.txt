@@ -1,0 +1,855 @@
+
+> starter@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.12 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.4:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1519ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.6s
+Image with src "/hero.jpg" is using quality "85" which is not configured in images.qualities. This config will be required starting in Next.js 16.
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+ GET / 200 in 4500ms
+ GET / 200 in 703ms
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+   ▲ Next.js 15.5.12 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.4:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1615ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.5s
+ GET / 200 in 4652ms
+   Reload env: .env.local
+ ✓ Compiled in 22ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled / in 86ms
+ GET / 200 in 538ms
+ GET / 200 in 1101ms
+ ✓ Compiled in 70ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 18ms
+ ✓ Compiled / in 105ms
+ GET / 200 in 604ms
+ GET / 200 in 1039ms
+ ✓ Compiled in 111ms
+ ✓ Compiled in 91ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 23ms
+ ✓ Compiled / in 113ms
+ GET / 200 in 560ms
+ GET / 200 in 833ms
+ ✓ Compiled in 74ms
+ ✓ Compiled / in 56ms
+ ⨯ ReferenceError: Contact is not defined
+    at HomePage (app\page.tsx:40:10)
+  38 |         <Services />
+  39 |         <Gallery />
+> 40 |         <Contact />
+     |          ^
+  41 |       </main>
+  42 |       <Footer />
+  43 |     </> {
+  digest: '1529696463'
+}
+ GET / 200 in 167ms
+ ✓ Compiled in 84ms
+ ✓ Compiled / in 50ms
+ GET / 200 in 195ms
+ ✓ Compiled in 87ms
+ ✓ Compiled in 85ms
+ ✓ Compiled / in 68ms
+ GET / 200 in 216ms
+ ✓ Compiled in 62ms
+ ✓ Compiled / in 48ms
+ GET / 200 in 202ms
+ ✓ Compiled in 75ms
+ ✓ Compiled / in 45ms
+ GET / 200 in 173ms
+ ✓ Compiled in 79ms
+ ✓ Compiled / in 48ms
+ GET / 200 in 188ms
+ ✓ Compiled in 73ms
+ ✓ Compiled / in 46ms
+ GET / 200 in 185ms
+ ○ Compiling /kontakt ...
+ ✓ Compiled /kontakt in 548ms
+ GET /kontakt 200 in 944ms
+ GET / 200 in 653ms
+ ✓ Compiled in 102ms
+ ✓ Compiled / in 65ms
+ GET / 200 in 296ms
+ GET / 200 in 149ms
+ ✓ Compiled in 73ms
+ ✓ Compiled / in 62ms
+ GET / 200 in 293ms
+ GET / 200 in 148ms
+ ✓ Compiled in 110ms
+ ✓ Compiled / in 87ms
+ GET / 200 in 373ms
+ ✓ Compiled in 79ms
+ ✓ Compiled / in 62ms
+ GET / 200 in 235ms
+ ✓ Compiled in 110ms
+ ✓ Compiled / in 84ms
+ GET / 200 in 287ms
+ ✓ Compiled in 79ms
+ ✓ Compiled / in 64ms
+ GET / 200 in 238ms
+ ✓ Compiled in 101ms
+ ✓ Compiled / in 53ms
+ GET / 200 in 244ms
+ ✓ Compiled in 123ms
+ ✓ Compiled / in 64ms
+ GET / 200 in 263ms
+ ✓ Compiled in 77ms
+ ✓ Compiled / in 68ms
+ GET / 200 in 291ms
+ ✓ Compiled in 108ms
+ ✓ Compiled / in 56ms
+ GET / 200 in 266ms
+ ✓ Compiled in 74ms
+ ✓ Compiled / in 53ms
+ GET / 200 in 242ms
+ ✓ Compiled in 94ms
+ ✓ Compiled / in 64ms
+ GET / 200 in 258ms
+ ✓ Compiled in 58ms
+ GET / 200 in 155ms
+ ✓ Compiled in 60ms
+ GET / 200 in 175ms
+ GET / 200 in 501ms
+ ✓ Compiled /kontakt in 71ms
+ GET /kontakt 200 in 440ms
+ ✓ Compiled in 86ms
+ ✓ Compiled / in 164ms
+ GET / 200 in 2140ms
+ ✓ Compiled in 156ms
+ ✓ Compiled / in 60ms
+ GET / 200 in 326ms
+ ✓ Compiled in 126ms
+ ✓ Compiled / in 46ms
+ GET / 200 in 317ms
+ ✓ Compiled in 77ms
+ ✓ Compiled / in 63ms
+ GET / 200 in 257ms
+ ✓ Compiled in 161ms
+ ✓ Compiled / in 76ms
+ GET / 200 in 384ms
+ ✓ Compiled in 89ms
+ ✓ Compiled / in 61ms
+ GET / 200 in 255ms
+ ✓ Compiled in 73ms
+ ✓ Compiled / in 57ms
+ GET / 200 in 252ms
+ ✓ Compiled in 70ms
+ ✓ Compiled / in 52ms
+ GET / 200 in 252ms
+ ✓ Compiled in 80ms
+ ✓ Compiled / in 52ms
+ GET / 200 in 266ms
+ GET /kontakt 200 in 346ms
+ GET / 200 in 602ms
+ ✓ Compiled in 130ms
+ GET /kontakt 200 in 734ms
+ GET /kontakt 200 in 350ms
+ GET / 200 in 464ms
+ GET /kontakt 200 in 282ms
+ GET / 200 in 467ms
+ ✓ Compiled in 134ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 120ms
+ ✓ Compiled / in 112ms
+ GET / 200 in 1219ms
+ GET / 200 in 1312ms
+ ✓ Compiled in 156ms
+ ✓ Compiled in 193ms
+ ✓ Compiled / in 69ms
+ GET / 200 in 247ms
+ GET / 200 in 187ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 389ms
+ GET /advokati/aleksandar-veselinovic 200 in 1019ms
+ GET /advokati/aleksandar-veselinovic 200 in 503ms
+ ✓ Compiled in 25ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /advokati/aleksandar-veselinovic in 96ms
+ GET /advokati/aleksandar-veselinovic 200 in 666ms
+ GET /advokati/aleksandar-veselinovic 200 in 876ms
+ ✓ Compiled in 161ms
+ ✓ Compiled in 28ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 42ms
+ GET /advokati/aleksandar-veselinovic 200 in 236ms
+ GET /advokati/aleksandar-veselinovic 200 in 148ms
+ GET /advokati/aleksandar-veselinovic 200 in 155ms
+ GET /advokati/aleksandar-veselinovic 200 in 129ms
+ GET /advokati/aleksandar-veselinovic 200 in 134ms
+ ✓ Compiled in 79ms
+ ✓ Compiled in 103ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 59ms
+ GET /advokati/aleksandar-veselinovic 200 in 236ms
+ GET /advokati/aleksandar-veselinovic 200 in 171ms
+ GET /advokati/aleksandar-veselinovic 200 in 190ms
+ ✓ Compiled /advokati in 291ms
+ ⨯ [Error: Invalid quality prop (80) on `next/image` does not match `images.qualities` configured in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-qualities] {
+  digest: '1527556311'
+}
+ GET /advokati 200 in 635ms
+ ✓ Compiled /advokati/tijana-obradovic in 283ms
+ GET /advokati/tijana-obradovic 200 in 704ms
+ GET /advokati/aleksandar-veselinovic 200 in 198ms
+ ✓ Compiled in 79ms
+ GET /advokati/aleksandar-veselinovic 200 in 147ms
+ ✓ Compiled /advokati in 68ms
+ GET /advokati 200 in 588ms
+ GET /advokati/tijana-obradovic 200 in 603ms
+ GET /advokati 200 in 285ms
+ ✓ Compiled in 78ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /advokati in 86ms
+ GET /advokati 200 in 512ms
+ GET /advokati 200 in 611ms
+ ✓ Compiled /advokati in 58ms
+ GET /advokati 200 in 208ms
+ ✓ Compiled in 23ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /advokati in 77ms
+ GET /advokati 200 in 577ms
+ GET /advokati 200 in 758ms
+ GET /advokati 200 in 212ms
+ ✓ Compiled /advokati/jovan-polic in 326ms
+ GET /advokati/jovan-polic 200 in 746ms
+ ✓ Compiled /advokati/nikola-sretenovic in 342ms
+ ⨯ ./app/advokati/nikola-sretenovic/page.tsx:47:62
+Parsing ecmascript source code failed
+[0m [90m 45 |[39m     date[33m:[39m [32m"Praksa u pravosuđu"[39m[33m,[39m
+ [90m 46 |[39m     title[33m:[39m [32m"Praksa u advokatskoj kancelariji Veselinović"[39m[33m,[39m
+[31m[1m>[22m[39m[90m 47 |[39m     desc[33m:[39m [32m"Kao obavezan deo predmeta „Praksa u pravosuđu"[39m obavljao praksu u kancelariji [33mVeselinović[39m i stekao dragoceno praktično iskustvo u oblasti prava[33m.[39m[32m",[39m
+ [90m    |[39m                                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 48 |[39m     icon[33m:[39m [33m<[39m[33mBriefcaseIcon[39m [33m/[39m[33m>[39m[33m,[39m
+ [90m 49 |[39m     highlight[33m:[39m [36mfalse[39m[33m,[39m
+ [90m 50 |[39m   }[33m,[39m[0m
+
+Expected ',', got 'obavljao'
+
+
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3s
+ GET /advokati/nikola-sretenovic 500 in 5204ms
+ ✓ Compiled in 94ms
+ GET /advokati 200 in 128ms
+ ✓ Compiled /advokati/nikola-sretenovic in 85ms
+ GET /advokati/nikola-sretenovic 200 in 1267ms
+ GET /advokati 200 in 315ms
+ GET /advokati/nikola-sretenovic 200 in 251ms
+ ✓ Compiled /advokati/tijana-obradovic in 72ms
+ GET /advokati/tijana-obradovic 200 in 957ms
+ GET /advokati 200 in 394ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 105ms
+ GET /advokati/aleksandar-veselinovic 200 in 853ms
+ ✓ Compiled / in 95ms
+ GET / 200 in 1137ms
+ GET / 200 in 538ms
+ ✓ Compiled in 114ms
+ ✓ Compiled in 216ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled / in 189ms
+ GET / 200 in 927ms
+ GET / 200 in 1169ms
+ ✓ Compiled in 302ms
+ GET / 200 in 741ms
+ ✓ Compiled in 217ms
+ GET / 200 in 461ms
+ ✓ Compiled in 100ms
+ GET / 200 in 210ms
+ ✓ Compiled /advokati in 72ms
+ GET /advokati 200 in 501ms
+ ✓ Compiled /advokati/tijana-balcakovic in 478ms
+ GET /advokati/tijana-balcakovic 200 in 1206ms
+ GET /advokati 200 in 354ms
+ GET /advokati/tijana-balcakovic 200 in 377ms
+ GET /advokati 200 in 358ms
+ GET /advokati/tijana-balcakovic 200 in 374ms
+ GET /advokati 200 in 501ms
+ GET / 200 in 815ms
+ ✓ Compiled in 126ms
+ ✓ Compiled / in 81ms
+ GET / 200 in 340ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 636ms
+ GET /MPP08725-2.webp 404 in 1128ms
+ ⨯ The requested resource isn't a valid image for /MPP08725-2.webp received null
+ ✓ Compiled in 164ms
+ ✓ Compiled / in 80ms
+ GET / 200 in 544ms
+ GET / 200 in 703ms
+ GET / 200 in 765ms
+ ✓ Compiled in 215ms
+ ✓ Compiled in 396ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled / in 181ms
+ GET / 200 in 1333ms
+ GET / 200 in 1640ms
+ ✓ Compiled in 455ms
+ GET / 200 in 890ms
+ ✓ Compiled in 118ms
+ GET / 200 in 265ms
+ ✓ Compiled in 4s
+ ✓ Compiled / in 380ms
+ GET / 200 in 5408ms
+ GET / 200 in 2527ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1318ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 1895ms
+ ✓ Compiled /advokati in 150ms
+ GET /advokati 200 in 1165ms
+ GET /advokati 200 in 1365ms
+ ○ Compiling /advokati/aleksandra-spasic ...
+ ✓ Compiled /advokati/aleksandra-spasic in 1463ms
+ GET /advokati/aleksandra-spasic 200 in 2572ms
+ GET /advokati/aleksandra-spasic 200 in 684ms
+ GET /advokati 200 in 545ms
+ GET / 200 in 858ms
+ ✓ Compiled in 277ms
+ ✓ Compiled in 185ms
+ ✓ Compiled / in 161ms
+ GET / 200 in 639ms
+ ✓ Compiled in 256ms
+ ✓ Compiled in 153ms
+ ✓ Compiled / in 118ms
+ GET / 200 in 589ms
+ GET / 200 in 349ms
+ GET / 200 in 376ms
+ ✓ Compiled /advokati in 202ms
+ GET / 200 in 1093ms
+ GET /advokati 200 in 1325ms
+ GET / 200 in 1928ms
+ ✓ Compiled /advokati/tijana-balcakovic in 170ms
+ GET /advokati/tijana-balcakovic 200 in 1862ms
+ GET / 200 in 841ms
+ GET / 200 in 353ms
+ GET /advokati 200 in 609ms
+ GET / 200 in 763ms
+ GET /advokati 200 in 668ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 241ms
+ GET /advokati/aleksandar-veselinovic 200 in 1543ms
+ GET /advokati 200 in 469ms
+ GET / 200 in 893ms
+ ✓ Compiled in 270ms
+ ✓ Compiled / in 166ms
+ GET / 200 in 702ms
+ GET / 200 in 770ms
+ ✓ Compiled in 321ms
+ ✓ Compiled / in 175ms
+ GET / 200 in 622ms
+ GET / 200 in 550ms
+ ✓ Compiled in 76ms
+ ✓ Compiled / in 73ms
+ GET / 200 in 266ms
+ ✓ Compiled in 367ms
+ ✓ Compiled / in 182ms
+ GET / 200 in 629ms
+ ✓ Compiled in 183ms
+ ✓ Compiled / in 132ms
+ GET / 200 in 362ms
+ ✓ Compiled / in 87ms
+ GET / 200 in 314ms
+ ✓ Compiled in 90ms
+ ✓ Compiled / in 106ms
+ GET / 200 in 459ms
+ GET /advokati 200 in 607ms
+ GET / 200 in 1103ms
+ ✓ Compiled /advokati/nikola-sretenovic in 283ms
+ GET /advokati/nikola-sretenovic 200 in 2688ms
+ GET / 200 in 815ms
+ ✓ Compiled /advokati/tijana-obradovic in 205ms
+ GET /advokati/tijana-obradovic 200 in 1825ms
+ ✓ Compiled in 143ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 0ms
+ ✓ Compiled /advokati/tijana-obradovic in 155ms
+ GET /advokati/tijana-obradovic 200 in 1222ms
+ GET /advokati/tijana-obradovic 200 in 1707ms
+ ✓ Compiled in 543ms
+ ✓ Compiled /advokati/tijana-obradovic in 330ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 936ms
+ GET /advokati/tijana-obradovic 200 in 1134ms
+ GET /advokati/tijana-obradovic 200 in 375ms
+ GET /advokati/tijana-obradovic 200 in 335ms
+ GET /advokati/tijana-obradovic 200 in 371ms
+ GET /advokati/tijana-obradovic 200 in 303ms
+ GET /advokati/tijana-obradovic 200 in 384ms
+ GET /advokati/tijana-obradovic 200 in 349ms
+ GET /advokati/tijana-obradovic 200 in 374ms
+ ✓ Compiled in 402ms
+ ✓ Compiled / in 70ms
+ GET / 200 in 1391ms
+ ✓ Compiled in 123ms
+ ✓ Compiled in 152ms
+ ✓ Compiled in 159ms
+ GET /advokati/tijana-obradovic 200 in 540ms
+ ✓ Compiled in 225ms
+ GET /advokati/tijana-obradovic 200 in 433ms
+ ✓ Compiled in 201ms
+ GET /advokati/tijana-obradovic 200 in 363ms
+ ✓ Compiled in 180ms
+ GET /advokati/tijana-obradovic 200 in 259ms
+ ✓ Compiled / in 120ms
+ GET / 200 in 1460ms
+ GET / 200 in 1016ms
+ ✓ Compiled in 260ms
+ GET / 200 in 555ms
+ ✓ Compiled in 260ms
+ GET / 200 in 530ms
+ ✓ Compiled in 216ms
+ GET / 200 in 419ms
+ ✓ Compiled in 156ms
+ GET / 200 in 364ms
+ ✓ Compiled in 146ms
+ GET / 200 in 292ms
+ ✓ Compiled in 271ms
+ GET / 200 in 348ms
+ ✓ Compiled in 126ms
+ GET / 200 in 275ms
+ ✓ Compiled in 472ms
+ GET / 200 in 486ms
+ ✓ Compiled in 355ms
+ GET / 200 in 684ms
+ ✓ Compiled in 249ms
+ GET / 200 in 621ms
+ ✓ Compiled in 316ms
+ GET / 200 in 489ms
+ ✓ Compiled in 572ms
+ GET / 200 in 591ms
+ ✓ Compiled in 132ms
+ ✓ Compiled / in 89ms
+ GET / 200 in 443ms
+ ✓ Compiled in 147ms
+ ✓ Compiled / in 80ms
+ GET / 200 in 396ms
+ ✓ Compiled in 200ms
+ ✓ Compiled / in 116ms
+ GET / 200 in 433ms
+ ✓ Compiled in 121ms
+ ✓ Compiled / in 71ms
+ GET / 200 in 348ms
+ ✓ Compiled /_not-found/page in 187ms
+ GET /advokati 404 in 977ms
+ GET / 200 in 667ms
+ ✓ Compiled in 159ms
+ ✓ Compiled / in 140ms
+ GET / 200 in 576ms
+ ✓ Compiled /advokati/tijana-balcakovic in 188ms
+ GET /advokati/tijana-balcakovic 200 in 1914ms
+ GET / 200 in 1282ms
+ GET / 200 in 985ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 469ms
+ GET /advokati/tijana-balcakovic 200 in 852ms
+ GET /advokati 404 in 231ms
+ GET /advokati/tijana-balcakovic 200 in 552ms
+ GET / 200 in 929ms
+ ✓ Compiled in 157ms
+ ✓ Compiled / in 120ms
+ GET / 200 in 370ms
+ ✓ Compiled in 193ms
+ ✓ Compiled / in 146ms
+ GET / 200 in 679ms
+ ✓ Compiled in 180ms
+ ✓ Compiled / in 99ms
+ GET / 200 in 350ms
+ ✓ Compiled in 219ms
+ ✓ Compiled / in 120ms
+ GET / 200 in 455ms
+ ✓ Compiled in 146ms
+ ✓ Compiled / in 78ms
+ GET / 200 in 402ms
+ GET / 200 in 1056ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 333ms
+ ✓ Compiled in 110ms
+ ✓ Compiled / in 65ms
+ GET / 200 in 300ms
+ ✓ Compiled in 90ms
+ ✓ Compiled / in 91ms
+ GET / 200 in 320ms
+ ✓ Compiled in 80ms
+ ✓ Compiled / in 114ms
+ GET / 200 in 344ms
+ GET / 200 in 925ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 329ms
+ ✓ Compiled in 86ms
+ ✓ Compiled / in 59ms
+ GET / 200 in 265ms
+ ✓ Compiled in 88ms
+ ✓ Compiled / in 60ms
+ GET / 200 in 267ms
+ ✓ Compiled in 109ms
+ ✓ Compiled / in 83ms
+ GET / 200 in 305ms
+ ✓ Compiled in 117ms
+ ✓ Compiled / in 51ms
+ GET / 200 in 232ms
+ ✓ Compiled in 85ms
+ ✓ Compiled / in 53ms
+ GET / 200 in 241ms
+ ✓ Compiled in 85ms
+ ✓ Compiled / in 51ms
+ GET / 200 in 252ms
+ ✓ Compiled in 82ms
+ ✓ Compiled / in 49ms
+ GET / 200 in 244ms
+ ✓ Compiled in 81ms
+ ✓ Compiled / in 50ms
+ GET / 200 in 247ms
+ ✓ Compiled in 86ms
+ ✓ Compiled / in 61ms
+ GET / 200 in 408ms
+ ✓ Compiled in 73ms
+ ✓ Compiled / in 53ms
+ GET / 200 in 226ms
+ ✓ Compiled in 158ms
+ ✓ Compiled / in 86ms
+ GET / 200 in 305ms
+ ✓ Compiled in 149ms
+ ✓ Compiled / in 88ms
+ GET / 200 in 287ms
+ ✓ Compiled in 158ms
+ ✓ Compiled / in 87ms
+ GET / 200 in 278ms
+ ✓ Compiled in 82ms
+ ✓ Compiled / in 49ms
+ GET / 200 in 234ms
+ ✓ Compiled in 93ms
+ ✓ Compiled / in 54ms
+ GET / 200 in 232ms
+ ✓ Compiled in 89ms
+ ✓ Compiled / in 56ms
+ GET / 200 in 249ms
+ ✓ Compiled in 87ms
+ ✓ Compiled / in 55ms
+ GET / 200 in 243ms
+ ✓ Compiled in 157ms
+ ✓ Compiled / in 71ms
+ GET / 200 in 264ms
+ ✓ Compiled in 84ms
+ ✓ Compiled / in 52ms
+ GET / 200 in 238ms
+ ✓ Compiled in 84ms
+ ✓ Compiled / in 50ms
+ GET / 200 in 228ms
+ ✓ Compiled in 90ms
+ ✓ Compiled / in 51ms
+ GET / 200 in 249ms
+ ✓ Compiled in 90ms
+ ✓ Compiled / in 48ms
+ GET / 200 in 251ms
+ ✓ Compiled in 88ms
+ ✓ Compiled / in 54ms
+ GET / 200 in 231ms
+ ✓ Compiled / in 56ms
+ GET / 200 in 252ms
+ ✓ Compiled in 164ms
+ ✓ Compiled / in 81ms
+ GET / 200 in 280ms
+ ✓ Compiled in 89ms
+ ✓ Compiled / in 50ms
+ GET / 200 in 243ms
+ ✓ Compiled in 92ms
+ ✓ Compiled / in 50ms
+ GET / 200 in 231ms
+ ✓ Compiled in 99ms
+ ✓ Compiled / in 52ms
+ GET / 200 in 254ms
+ ✓ Compiled in 84ms
+ ✓ Compiled / in 61ms
+ GET / 200 in 250ms
+ ✓ Compiled in 161ms
+ ✓ Compiled / in 93ms
+ GET / 200 in 320ms
+ ✓ Compiled in 155ms
+ ✓ Compiled / in 81ms
+ GET / 200 in 308ms
+ ✓ Compiled in 200ms
+ ✓ Compiled in 94ms
+ ✓ Compiled / in 59ms
+ GET / 200 in 262ms
+ ✓ Compiled in 167ms
+ ✓ Compiled / in 110ms
+ GET / 200 in 349ms
+ ✓ Compiled in 132ms
+ ✓ Compiled / in 52ms
+ GET / 200 in 241ms
+ GET / 200 in 837ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 328ms
+ ✓ Compiled in 79ms
+ ✓ Compiled / in 64ms
+ GET / 200 in 236ms
+ ✓ Compiled in 85ms
+ ✓ Compiled / in 49ms
+ GET / 200 in 290ms
+ ✓ Compiled in 149ms
+ ✓ Compiled / in 81ms
+ GET / 200 in 268ms
+ ✓ Compiled in 155ms
+ ✓ Compiled / in 85ms
+ GET / 200 in 272ms
+ ✓ Compiled in 86ms
+ ✓ Compiled / in 52ms
+ GET / 200 in 229ms
+ ✓ Compiled in 98ms
+ ✓ Compiled / in 53ms
+ GET / 200 in 244ms
+ ✓ Compiled in 91ms
+ ✓ Compiled / in 50ms
+ GET / 200 in 219ms
+ ✓ Compiled in 79ms
+ ✓ Compiled / in 49ms
+ GET / 200 in 244ms
+ ✓ Compiled /advokati/tijana-obradovic in 74ms
+ GET /advokati/tijana-obradovic 200 in 979ms
+ GET / 200 in 452ms
+ ✓ Compiled /kontakt in 225ms
+ GET /kontakt 200 in 875ms
+ GET / 200 in 771ms
+ ✓ Compiled in 80ms
+ ✓ Compiled / in 91ms
+ GET / 200 in 290ms
+ ✓ Compiled in 91ms
+ ✓ Compiled / in 57ms
+ GET / 200 in 245ms
+ ✓ Compiled in 168ms
+ ✓ Compiled / in 96ms
+ GET / 200 in 310ms
+ ✓ Compiled in 86ms
+ ✓ Compiled / in 53ms
+ GET / 200 in 241ms
+ ✓ Compiled in 88ms
+ ✓ Compiled / in 52ms
+ GET / 200 in 225ms
+ ✓ Compiled in 84ms
+ ✓ Compiled / in 51ms
+ GET / 200 in 235ms
+ ✓ Compiled in 292ms
+ ✓ Compiled / in 398ms
+ GET / 200 in 2435ms
+ ✓ Compiled in 258ms
+ ✓ Compiled / in 190ms
+ GET / 200 in 931ms
+ ✓ Compiled in 417ms
+ ✓ Compiled in 201ms
+ ✓ Compiled in 198ms
+ ✓ Compiled in 309ms
+ ✓ Compiled in 189ms
+ ✓ Compiled in 149ms
+ ✓ Compiled in 127ms
+ ✓ Compiled / in 98ms
+ GET / 200 in 465ms
+ GET / 200 in 269ms
+ GET / 200 in 281ms
+ ✓ Compiled in 271ms
+ ✓ Compiled / in 63ms
+ GET / 200 in 641ms
+ GET / 200 in 294ms
+ GET / 200 in 268ms
+ GET / 200 in 260ms
+ GET / 200 in 235ms
+ GET / 200 in 229ms
+ GET / 200 in 259ms
+ GET / 200 in 266ms
+ GET / 200 in 262ms
+ GET / 200 in 271ms
+ GET / 200 in 275ms
+ GET / 200 in 287ms
+ GET / 200 in 253ms
+ ✓ Compiled in 155ms
+ GET / 200 in 1510ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 667ms
+ ✓ Compiled in 222ms
+ ✓ Compiled in 225ms
+ ✓ Compiled in 147ms
+ ✓ Compiled in 148ms
+ ✓ Compiled in 257ms
+ ✓ Compiled in 133ms
+ ✓ Compiled in 131ms
+ ✓ Compiled in 222ms
+ ✓ Compiled in 177ms
+ ✓ Compiled in 102ms
+ ✓ Compiled in 118ms
+ ✓ Compiled in 137ms
+ ✓ Compiled in 135ms
+ ✓ Compiled in 147ms
+ ✓ Compiled in 232ms
+ ✓ Compiled in 173ms
+ ✓ Compiled in 184ms
+ ✓ Compiled in 142ms
+ ✓ Compiled in 262ms
+ ✓ Compiled in 231ms
+ ✓ Compiled in 221ms
+ ✓ Compiled / in 128ms
+ GET / 200 in 532ms
+ ✓ Compiled in 152ms
+ ✓ Compiled / in 90ms
+ GET / 200 in 438ms
+ ✓ Compiled in 163ms
+ ✓ Compiled / in 89ms
+ GET / 200 in 424ms
+ ✓ Compiled in 114ms
+ ✓ Compiled / in 68ms
+ GET / 200 in 326ms
+ ✓ Compiled in 243ms
+ ✓ Compiled / in 117ms
+ GET / 200 in 554ms
+ ✓ Compiled in 121ms
+ ✓ Compiled / in 78ms
+ GET / 200 in 345ms
+ ✓ Compiled in 166ms
+ ✓ Compiled / in 95ms
+ GET / 200 in 303ms
+ ✓ Compiled in 107ms
+ ✓ Compiled / in 76ms
+ GET / 200 in 330ms
+ ✓ Compiled in 87ms
+ ✓ Compiled / in 59ms
+ GET / 200 in 255ms
+ ✓ Compiled in 93ms
+ ✓ Compiled / in 65ms
+ GET / 200 in 262ms
+ ✓ Compiled in 95ms
+ ✓ Compiled / in 109ms
+ GET / 200 in 375ms
+ ✓ Compiled in 179ms
+ ✓ Compiled / in 117ms
+ GET / 200 in 554ms
+ ✓ Compiled in 128ms
+ ✓ Compiled / in 162ms
+ GET / 200 in 488ms
+ ✓ Compiled in 326ms
+ ✓ Compiled / in 138ms
+ GET / 200 in 639ms
+ ✓ Compiled in 152ms
+ ✓ Compiled / in 154ms
+ GET / 200 in 468ms
+ ✓ Compiled in 141ms
+ ✓ Compiled / in 87ms
+ GET / 200 in 382ms
+ ✓ Compiled in 743ms
+ ○ Compiling / ...
+ ✓ Compiled / in 514ms
+ GET / 200 in 1406ms
+ ✓ Compiled in 399ms
+ ✓ Compiled in 140ms
+ ✓ Compiled / in 184ms
+ GET / 200 in 1208ms
+ ✓ Compiled in 122ms
+ ✓ Compiled / in 78ms
+ GET / 200 in 378ms
+ ✓ Compiled in 144ms
+ ✓ Compiled / in 77ms
+ GET / 200 in 417ms
+ ✓ Compiled in 117ms
+ ✓ Compiled / in 90ms
+ GET / 200 in 398ms
+ ✓ Compiled in 115ms
+ ✓ Compiled / in 83ms
+ GET / 200 in 472ms
+ ✓ Compiled in 252ms
+ ✓ Compiled / in 154ms
+ GET / 200 in 548ms
+ ✓ Compiled in 115ms
+ ✓ Compiled / in 72ms
+ GET / 200 in 323ms
+ ✓ Compiled in 367ms
+ ✓ Compiled / in 164ms
+ GET / 200 in 631ms
+ ✓ Compiled in 112ms
+ ✓ Compiled / in 74ms
+ GET / 200 in 330ms
+ ✓ Compiled in 162ms
+ ✓ Compiled / in 95ms
+ GET / 200 in 480ms
+ ✓ Compiled in 150ms
+ ✓ Compiled / in 91ms
+ GET / 200 in 404ms
+ ✓ Compiled in 298ms
+ ✓ Compiled / in 145ms
+ GET / 200 in 476ms
+ ✓ Compiled in 294ms
+ ✓ Compiled / in 126ms
+ GET / 200 in 524ms
+ GET / 200 in 1238ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 819ms
+ ✓ Compiled in 618ms
+ GET / 200 in 853ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 1318ms
+ GET / 200 in 1281ms
+ ✓ Compiled in 194ms
+ ✓ Compiled in 119ms
+ ✓ Compiled / in 102ms
+ GET / 200 in 394ms
+ GET / 200 in 631ms
+ GET / 200 in 176ms
+ GET / 200 in 169ms
+ GET / 200 in 178ms
+ GET / 200 in 194ms
+ GET / 200 in 166ms
+ GET / 200 in 213ms
+ ✓ Compiled /kontakt in 107ms
+ GET /kontakt 200 in 690ms
+ ✓ Compiled in 97ms
+ ✓ Compiled in 99ms
+ ✓ Compiled in 69ms
+ ✓ Compiled in 112ms
+ ✓ Compiled in 64ms
+ ✓ Compiled /kontakt in 70ms
+ GET /kontakt 200 in 229ms
+ GET /kontakt 200 in 139ms
+ GET /kontakt 200 in 124ms
+ GET /kontakt 200 in 128ms
+ GET /kontakt 200 in 128ms
+ GET /kontakt 200 in 158ms
+ GET /kontakt 200 in 128ms
+ GET /kontakt 200 in 120ms
+ ✓ Compiled in 236ms
+ ✓ Compiled /kontakt in 98ms
+ GET /kontakt 200 in 285ms
+ GET /kontakt 200 in 122ms
+ GET /kontakt 200 in 133ms
+ GET /kontakt 200 in 112ms
+ GET /kontakt 200 in 121ms
+ GET /kontakt 200 in 210ms
+ GET /kontakt 200 in 113ms
+ GET /kontakt 200 in 115ms
+ ✓ Compiled / in 56ms
+ GET / 200 in 1350ms
+ GET /kontakt 200 in 292ms
+ GET / 200 in 439ms
+ ✓ Compiled /advokati/tijana-obradovic in 112ms
+ GET /advokati/tijana-obradovic 200 in 963ms
+ GET / 200 in 589ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 106ms
+ GET /advokati/aleksandar-veselinovic 200 in 1011ms
+ ✓ Compiled /advokati/jovan-polic in 104ms
+ GET /advokati/jovan-polic 200 in 845ms
+ GET /advokati/aleksandar-veselinovic 200 in 553ms
+ ✓ Compiled in 141ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 120ms
+ GET /advokati/aleksandar-veselinovic 200 in 391ms
+ GET /advokati/tijana-obradovic 200 in 362ms
+ GET /advokati/aleksandar-veselinovic 200 in 419ms
+ GET /advokati/tijana-obradovic 200 in 275ms
+ GET /advokati/aleksandar-veselinovic 200 in 429ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 71ms
+ GET /advokati/aleksandar-veselinovic 200 in 245ms
+ ✓ Compiled in 176ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 78ms
+ GET /advokati/aleksandar-veselinovic 200 in 262ms
+ ✓ Compiled in 97ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 58ms
+ GET /advokati/aleksandar-veselinovic 200 in 239ms
+ GET /advokati/tijana-obradovic 200 in 377ms
+ GET /advokati/aleksandar-veselinovic 200 in 543ms
