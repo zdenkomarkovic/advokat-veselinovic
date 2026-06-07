@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -125,13 +126,13 @@ export default function AleksandarVeselinovicPage() {
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-0 items-end">
               {/* Text side */}
               <div className="pb-16 lg:pb-20">
-                <a
+                <Link
                   href="/"
                   className="inline-flex items-center gap-2 text-white/50 hover:text-gold text-xs font-semibold tracking-widest uppercase mb-8 transition-colors"
                 >
                   <ChevronLeftIcon />
                   Početna
-                </a>
+                </Link>
 
                 <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
                   Advokat — Pančevo

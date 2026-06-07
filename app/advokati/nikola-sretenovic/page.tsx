@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -112,13 +113,13 @@ export default function NikolaSretenovicPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-end">
               {/* Text side */}
               <div className="pb-16 lg:pb-20">
-                <a
-                  href="/advokati"
+                <Link
+                  href="/#tim"
                   className="inline-flex items-center gap-2 text-white/50 hover:text-gold text-xs font-semibold tracking-widest uppercase mb-8 transition-colors"
                 >
                   <ChevronLeftIcon />
                   Naš tim
-                </a>
+                </Link>
 
                 <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
                   Advokatski pripravnik — Pančevo
@@ -201,7 +202,7 @@ export default function NikolaSretenovicPage() {
                     Nikola Sretenović rođen je{" "}
                     <strong className="text-primary">5. novembra 1996. godine</strong>.
                     Srednje obrazovanje stekao je u Pančevu, u Gimnaziji{" "}
-                    <strong className="text-primary">„Uroš Predić"</strong>, gde je razvio
+                    <strong className="text-primary">„Uroš Predić&#8220;</strong>, gde je razvio
                     interesovanje za pravo i humanističke nauke.
                   </p>
                   <p>
@@ -218,7 +219,7 @@ export default function NikolaSretenovicPage() {
                   </p>
                   <p>
                     Kao obavezan deo predmeta{" "}
-                    <strong className="text-primary">„Praksa u pravosuđu"</strong> obavljao
+                    <strong className="text-primary">„Praksa u pravosuđu&#8220;</strong> obavljao
                     je praksu u Advokatskoj kancelariji Veselinović, gde je stekao
                     dragoceno uvid u svakodnevni rad advokata i vođenje pravnih predmeta.
                     Nakon završetka prakse, nastavio je svoju profesionalnu karijeru u
@@ -438,14 +439,6 @@ function BriefcaseIcon() {
     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
       <rect x="2" y="7" width="20" height="14" rx="2" />
       <path strokeLinecap="round" strokeLinejoin="round" d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" />
-    </svg>
-  );
-}
-
-function BadgeIcon() {
-  return (
-    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
     </svg>
   );
 }

@@ -33,6 +33,14 @@ export const metadata: Metadata = {
     "pravna pomoć Pančevo",
     "advokatska kancelarija Veselinović",
   ],
+  authors: [{ name: "Advokatska kancelarija Veselinović" }],
+  creator: "Advokatska kancelarija Veselinović",
+  publisher: "Advokatska kancelarija Veselinović",
+  formatDetection: {
+    telephone: true,
+    email: true,
+    address: true,
+  },
   openGraph: {
     type: "website",
     locale: "sr_RS",
@@ -49,6 +57,16 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: SITE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 

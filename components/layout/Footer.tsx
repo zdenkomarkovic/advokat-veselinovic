@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { CONTACT, SITE_NAME } from "@/lib/constants";
 
 const quickLinks = [
@@ -30,7 +31,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <a href="/" className="flex items-center gap-3 mb-5">
+            <Link href="/" className="flex items-center gap-3 mb-5">
               <Image src="/logo.png" alt={SITE_NAME} width={44} height={44} className="w-11 h-11 object-contain brightness-0 invert" />
               <div>
                 <p className="text-white/60 text-[10px] tracking-widest uppercase leading-none mb-1">
@@ -38,7 +39,7 @@ export function Footer() {
                 </p>
                 <p className="text-gold font-serif text-lg font-bold leading-none">Веселиновић</p>
               </div>
-            </a>
+            </Link>
             <p className="text-sm leading-relaxed mb-5">
               Stručna pravna pomoć i zastupanje u svim oblastima prava. Vaši interesi — naša misija.
             </p>

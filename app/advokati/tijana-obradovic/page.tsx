@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -120,13 +121,13 @@ export default function TijanaObradovicPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-end">
               {/* Text side */}
               <div className="pb-16 lg:pb-20">
-                <a
-                  href="/advokati"
+                <Link
+                  href="/#tim"
                   className="inline-flex items-center gap-2 text-white/50 hover:text-gold text-xs font-semibold tracking-widest uppercase mb-8 transition-colors"
                 >
                   <ChevronLeftIcon />
                   Naš tim
-                </a>
+                </Link>
 
                 <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
                   Advokat partner — Pančevo
@@ -209,7 +210,7 @@ export default function TijanaObradovicPage() {
                     Tijana Obradović rođena je{" "}
                     <strong className="text-primary">3. maja 1992. godine</strong>.
                     Srednje obrazovanje stekla je u Pančevu, u Gimnaziji{" "}
-                    <strong className="text-primary">„Uroš Predić"</strong>.
+                    <strong className="text-primary">„Uroš Predić&#8220;</strong>.
                   </p>
                   <p>
                     Po završetku gimnazije upisala je{" "}

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { CONTACT, SITE_NAME } from "@/lib/constants";
 
 const teamMembers = [
@@ -64,7 +65,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-3 group flex-shrink-0">
+          <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
             <Image
               src="/logo.png"
               alt={SITE_NAME}
@@ -76,7 +77,7 @@ export function Navbar() {
               <p className="text-white/90 text-xs uppercase">Адвокатска канцеларија</p>
               <p className="text-gold font-serif text-xl font-bold leading-none">Веселиновић</p>
             </div>
-          </a>
+          </Link>
 
           {/* Desktop navigation */}
           <nav className="hidden lg:flex items-center gap-8">
@@ -98,7 +99,7 @@ export function Navbar() {
               onMouseEnter={() => setTeamOpen(true)}
               onMouseLeave={() => setTeamOpen(false)}
             >
-              <a
+              <Link
                 href="/#tim"
                 className="flex items-center gap-1.5 text-white/85 hover:text-gold transition-colors duration-200 text-sm font-medium tracking-wide relative group"
                 onClick={() => setTeamOpen(false)}
@@ -114,7 +115,7 @@ export function Navbar() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-gold transition-all duration-300 group-hover:w-full" />
-              </a>
+              </Link>
 
               {/* Dropdown panel */}
               <div
@@ -200,7 +201,7 @@ export function Navbar() {
               onClick={() => setMobileTeamOpen(!mobileTeamOpen)}
               className="w-full flex items-center justify-between px-3 py-3 text-white/85 hover:text-gold hover:bg-white/5 rounded transition-colors text-sm font-medium"
             >
-              <a
+              <Link
                 href="/#tim"
                 onClick={(e) => {
                   e.stopPropagation();
@@ -208,7 +209,7 @@ export function Navbar() {
                 }}
               >
                 Naš tim
-              </a>
+              </Link>
               <svg
                 className={`w-4 h-4 transition-transform duration-200 ${mobileTeamOpen ? "rotate-180" : ""}`}
                 fill="none"

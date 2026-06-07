@@ -853,3 +853,191 @@ Expected ',', got 'obavljao'
  GET /advokati/aleksandar-veselinovic 200 in 239ms
  GET /advokati/tijana-obradovic 200 in 377ms
  GET /advokati/aleksandar-veselinovic 200 in 543ms
+ ✓ Compiled /advokati/aleksandar-veselinovic in 62ms
+ GET /advokati/aleksandar-veselinovic 200 in 269ms
+ GET / 200 in 435ms
+ GET /advokati/aleksandar-veselinovic 200 in 581ms
+ GET /advokati/tijana-obradovic 200 in 349ms
+ GET /advokati/aleksandar-veselinovic 200 in 364ms
+ GET /advokati/tijana-obradovic 200 in 291ms
+ GET /advokati/aleksandar-veselinovic 200 in 406ms
+ GET /kontakt 200 in 284ms
+ GET / 200 in 682ms
+ GET /kontakt 200 in 406ms
+   Reload env: .env.local
+ ✓ Compiled in 356ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /kontakt in 210ms
+ GET /kontakt 200 in 1686ms
+ GET /kontakt 200 in 1889ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 737ms
+ ✓ Compiled in 113ms
+ ✓ Compiled /kontakt in 78ms
+ GET /kontakt 200 in 344ms
+ GET /kontakt 200 in 277ms
+ GET /kontakt 200 in 342ms
+ GET /kontakt 200 in 334ms
+ GET /kontakt 200 in 273ms
+ GET /kontakt 200 in 327ms
+ GET /kontakt 200 in 328ms
+ GET /kontakt 200 in 392ms
+ GET /kontakt 200 in 344ms
+ GET /favicon.ico?favicon.5f665b45.ico 200 in 580ms
+ ✓ Compiled / in 44ms
+ GET / 200 in 485ms
+ ✓ Compiled in 117ms
+ ✓ Compiled in 125ms
+ ✓ Compiled in 507ms
+ ✓ Compiled /kontakt in 73ms
+ GET /kontakt 200 in 273ms
+ GET /kontakt 200 in 137ms
+ GET /kontakt 200 in 178ms
+ GET /kontakt 200 in 153ms
+ GET /kontakt 200 in 149ms
+ GET /kontakt 200 in 130ms
+ GET /kontakt 200 in 133ms
+ GET /kontakt 200 in 141ms
+ ✓ Compiled in 85ms
+ ✓ Compiled in 97ms
+ ✓ Compiled /kontakt in 70ms
+ GET /kontakt 200 in 224ms
+ GET /kontakt 200 in 123ms
+ GET /kontakt 200 in 154ms
+ GET /kontakt 200 in 139ms
+ GET /kontakt 200 in 114ms
+ GET /kontakt 200 in 131ms
+ GET /kontakt 200 in 123ms
+ GET /kontakt 200 in 111ms
+ ✓ Compiled in 107ms
+ ✓ Compiled in 111ms
+ ✓ Compiled /kontakt in 63ms
+ GET /kontakt 200 in 213ms
+ GET /kontakt 200 in 128ms
+ GET /kontakt 200 in 150ms
+ GET /kontakt 200 in 131ms
+ GET /kontakt 200 in 130ms
+ GET /kontakt 200 in 120ms
+ GET /kontakt 200 in 130ms
+ GET /kontakt 200 in 123ms
+ ✓ Compiled in 74ms
+ ✓ Compiled /kontakt in 54ms
+ GET /kontakt 200 in 197ms
+ GET /kontakt 200 in 118ms
+ GET /kontakt 200 in 120ms
+ GET /kontakt 200 in 135ms
+ GET /kontakt 200 in 123ms
+ GET /kontakt 200 in 115ms
+ GET /kontakt 200 in 116ms
+ GET /kontakt 200 in 123ms
+ ✓ Compiled in 491ms
+ ✓ Compiled /kontakt in 64ms
+ GET /kontakt 200 in 233ms
+ GET /kontakt 200 in 149ms
+ GET /kontakt 200 in 131ms
+ GET /kontakt 200 in 133ms
+ GET /kontakt 200 in 122ms
+ GET /kontakt 200 in 121ms
+ GET /kontakt 200 in 129ms
+ GET /kontakt 200 in 120ms
+ ✓ Compiled in 73ms
+ GET /kontakt 200 in 141ms
+ ✓ Compiled in 66ms
+ GET /kontakt 200 in 148ms
+ ✓ Compiled in 93ms
+ GET /kontakt 200 in 126ms
+ ✓ Compiled in 70ms
+ GET /kontakt 200 in 133ms
+ ✓ Compiled in 94ms
+ GET /kontakt 200 in 171ms
+ ✓ Compiled / in 61ms
+ GET / 200 in 314ms
+ ✓ Compiled in 16ms
+ GET / 200 in 204ms
+ ✓ Compiled in 67ms
+ GET / 200 in 182ms
+ ✓ Compiled in 109ms
+ GET / 200 in 244ms
+ ✓ Compiled in 98ms
+ GET / 200 in 173ms
+ ✓ Compiled in 103ms
+ GET / 200 in 265ms
+ ✓ Compiled in 108ms
+ GET / 200 in 195ms
+ ✓ Compiled in 158ms
+ GET / 200 in 201ms
+ ✓ Compiled in 108ms
+ GET / 200 in 191ms
+ ✓ Compiled in 77ms
+ GET / 200 in 182ms
+ ✓ Compiled in 82ms
+ GET / 200 in 189ms
+ ✓ Compiled in 84ms
+ GET / 200 in 249ms
+ GET / 200 in 213ms
+ ✓ Compiled in 696ms
+ ✓ Compiled in 110ms
+ GET / 200 in 184ms
+ ✓ Compiled in 116ms
+ GET / 200 in 183ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\app\page\app-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\app\\page\\app-build-manifest.json'
+}
+ ✓ Compiled in 92ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\pages\_app\build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\pages\\_app\\build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\app\page\app-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\app\\page\\app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\pages\_app\build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\pages\\_app\\build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\pages\_app\build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\pages\\_app\\build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\app\page\app-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\app\\page\\app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\pages\_app\build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\pages\\_app\\build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\app\page\app-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\app\\page\\app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\pages\_app\build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\pages\\_app\\build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'E:\Sajtovi\advokatveselinovic\.next\server\pages\_app\build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Sajtovi\\advokatveselinovic\\.next\\server\\pages\\_app\\build-manifest.json'
+}
+ ✓ Compiled in 103ms

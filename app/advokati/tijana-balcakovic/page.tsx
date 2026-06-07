@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -98,13 +99,13 @@ export default function TijanaBalcakovicPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-end">
               {/* Text side */}
               <div className="pb-16 lg:pb-20">
-                <a
-                  href="/advokati"
+                <Link
+                  href="/#tim"
                   className="inline-flex items-center gap-2 text-white/50 hover:text-gold text-xs font-semibold tracking-widest uppercase mb-8 transition-colors"
                 >
                   <ChevronLeftIcon />
                   Naš tim
-                </a>
+                </Link>
 
                 <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
                   Advokatski pripravnik — Pančevo
@@ -187,7 +188,7 @@ export default function TijanaBalcakovicPage() {
                     Tijana Balčaković rođena je{" "}
                     <strong className="text-primary">12. marta 2002. godine</strong>.
                     Srednje obrazovanje stekla je u Pančevu, u Gimnaziji{" "}
-                    <strong className="text-primary">„Uroš Predić"</strong>, gde je izgradila
+                    <strong className="text-primary">„Uroš Predić&#8220;</strong>, gde je izgradila
                     čvrste intelektualne temelje i razvila interesovanje za pravo.
                   </p>
                   <p>
