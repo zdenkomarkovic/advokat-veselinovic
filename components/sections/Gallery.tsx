@@ -18,7 +18,7 @@ export function Gallery() {
           <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
             Galerija
           </p>
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-white leading-tight mb-5">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight mb-5">
             Kancelarija advokata Veselinović
           </h2>
           <div className="w-16 h-0.5 bg-gold mx-auto" />

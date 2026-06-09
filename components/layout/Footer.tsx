@@ -37,7 +37,7 @@ export function Footer() {
                 <p className="text-white/60 text-[10px] tracking-widest uppercase leading-none mb-1">
                   Адвокатска канцеларија
                 </p>
-                <p className="text-gold font-serif text-lg font-bold leading-none">Веселиновић</p>
+                <p className="text-gold text-lg font-bold leading-none">Веселиновић</p>
               </div>
             </Link>
             <p className="text-sm leading-relaxed mb-5">

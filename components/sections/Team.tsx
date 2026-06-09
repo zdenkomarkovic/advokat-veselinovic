@@ -67,6 +67,17 @@ const members = [
     bio: "Diplomirani pravnik Pravnog fakulteta Beogradskog univerziteta. Tokom studija učestvovala u pravnoj klinici za upravno pravo. Profesionalni razvoj usmerava ka pružanju kvalitetne pravne podrške.",
   },
   {
+    name: "Zdravko Erić",
+    title: "Advokatski pripravnik",
+    photo: "/MPP08581-2.jpg",
+    href: "/advokati/zdravko-eric",
+    highlights: [
+      "Advokatski pripravnik",
+      "Advokatska kancelarija Veselinović",
+    ],
+    bio: "Advokatski pripravnik u kancelariji Veselinović.",
+  },
+  {
     name: "Aleksandra Spasić",
     title: "Sekretar",
     photo: "/MPP05409.webp",
@@ -90,7 +101,7 @@ export function Team() {
           <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
             Naš tim
           </p>
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-white leading-tight mb-5">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight mb-5">
             Advokati i saradnici
           </h2>
           <div className="w-16 h-0.5 bg-gold mx-auto mb-6" />
@@ -122,7 +133,7 @@ export function Team() {
                   <p className="text-gold text-[10px] font-semibold tracking-[0.3em] uppercase mb-1">
                     {member.title}
                   </p>
-                  <h3 className="font-serif text-xl font-bold text-white leading-tight">
+                  <h3 className="text-xl font-bold text-white leading-tight">
                     {member.name}
                   </h3>
                 </div>

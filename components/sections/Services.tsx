@@ -74,7 +74,7 @@ export function Services() {
           <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
             Oblasti prava
           </p>
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-primary leading-tight mb-5">
+          <h2 className="text-4xl sm:text-5xl font-bold text-primary leading-tight mb-5">
             Advokat za svaku oblast prava
           </h2>
           <div className="w-16 h-0.5 bg-gold mx-auto mb-6" />
@@ -96,7 +96,7 @@ export function Services() {
               </div>
 
               {/* Title */}
-              <h3 className="font-serif text-lg font-bold text-primary group-hover:text-white mb-2 transition-colors duration-300">
+              <h3 className="text-lg font-bold text-primary group-hover:text-white mb-2 transition-colors duration-300">
                 {service.title}
               </h3>
 

@@ -36,7 +36,7 @@ export function Contact() {
           <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
             Kontakt
           </p>
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-primary leading-tight mb-5">
+          <h2 className="text-4xl sm:text-5xl font-bold text-primary leading-tight mb-5">
             Stupite u kontakt s nama
           </h2>
           <div className="w-16 h-0.5 bg-gold mx-auto mb-6" />
@@ -49,7 +49,7 @@ export function Contact() {
           {/* Contact info panel */}
           <div className="lg:col-span-2 flex flex-col">
             <div className="bg-primary text-white p-8 sm:p-10 flex-1">
-              <h3 className="font-serif text-2xl font-bold mb-2">Advokatska kancelarija</h3>
+              <h3 className="text-2xl font-bold mb-2">Advokatska kancelarija</h3>
               <p className="text-gold font-semibold text-lg mb-8">Veselinović</p>
 
               <ul className="space-y-7">

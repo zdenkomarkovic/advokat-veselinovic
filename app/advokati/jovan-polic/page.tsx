@@ -132,7 +132,7 @@ export default function JovanPolicPage() {
                 <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
                   Advokat partner — Pančevo
                 </p>
-                <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-none mb-5">
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-none mb-5">
                   Jovan
                   <br />
                   <span className="text-gold">Polić</span>
@@ -179,7 +179,7 @@ export default function JovanPolicPage() {
             <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-primary/20">
               {credentials.map((c) => (
                 <div key={c.label} className="px-6 py-6 text-center">
-                  <p className="font-serif text-3xl font-bold text-primary leading-none mb-1">
+                  <p className="text-3xl font-bold text-primary leading-none mb-1">
                     {c.value}
                   </p>
                   <p className="text-primary/70 text-xs font-semibold tracking-widest uppercase">
@@ -200,7 +200,7 @@ export default function JovanPolicPage() {
                 <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
                   Biografija
                 </p>
-                <h2 className="font-serif text-3xl sm:text-4xl font-bold text-primary mb-6">
+                <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
                   Obrazovanje i karijera
                 </h2>
                 <div className="w-12 h-0.5 bg-gold mb-8" />
@@ -253,7 +253,7 @@ export default function JovanPolicPage() {
               {/* Sidebar */}
               <div>
                 <div className="bg-primary text-white p-8 sticky top-28">
-                  <h3 className="font-serif text-xl font-bold text-gold mb-6">
+                  <h3 className="text-xl font-bold text-gold mb-6">
                     Ključne informacije
                   </h3>
                   <ul className="space-y-5">
@@ -290,7 +290,7 @@ export default function JovanPolicPage() {
               <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
                 Hronologija
               </p>
-              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-primary">
+              <h2 className="text-3xl sm:text-4xl font-bold text-primary">
                 Karijera i obrazovanje
               </h2>
               <div className="w-12 h-0.5 bg-gold mx-auto mt-5" />
@@ -322,7 +322,7 @@ export default function JovanPolicPage() {
                           {item.date}
                         </p>
                         <h3
-                          className={`font-serif text-lg font-bold mb-2 ${
+                          className={`text-lg font-bold mb-2 ${
                             item.highlight ? "text-white" : "text-primary"
                           }`}
                         >
@@ -364,7 +364,7 @@ export default function JovanPolicPage() {
             <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-5">
               Advokatska kancelarija Veselinović
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-white mb-5">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-5">
               Potrebna vam je pravna pomoć?
             </h2>
             <p className="text-white/65 leading-relaxed mb-10 max-w-xl mx-auto">

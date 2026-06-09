@@ -39,7 +39,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 sm:pb-12 text-center sm:text-left flex flex-col items-center sm:items-start">
         {/* H1 */}
-        <h1 className="font-serif max-w-2xl text-3xl sm:text-5xl font-bold text-white leading-normal md:leading-tight tracking-tight mb-6 md:mb-3">
+        <h1 className="max-w-2xl text-3xl sm:text-5xl font-bold text-white leading-normal md:leading-tight tracking-tight mb-6 md:mb-3">
           <span className="flex items-center justify-center sm:justify-start gap-4 font-sans text-gold text-xs md:text-lg font-semibold tracking-[0.35em] uppercase mb-6 md:mb-3 not-italic">
             <span className="h-px w-8 md:w-12 bg-gold flex-shrink-0" aria-hidden="true" />
             Advokat — Pančevo

@@ -33,7 +33,7 @@ export function About() {
             <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
               O kancelariji
             </p>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-primary leading-tight mb-6">
+            <h2 className="text-4xl sm:text-5xl font-bold text-primary leading-tight mb-6">
               Vaši pravni interesi —<br />
               naša prioritet
             </h2>
@@ -93,7 +93,7 @@ export function About() {
 
             {/* Stat card */}
             <div className="absolute -bottom-4 -right-4 sm:-right-8 bg-primary text-white p-6 shadow-xl">
-              <p className="font-serif text-4xl font-bold text-gold leading-none">8+</p>
+              <p className="text-4xl font-bold text-gold leading-none">8+</p>
               <p className="text-white/70 text-xs tracking-widest uppercase mt-1">Oblasti prava</p>
             </div>
           </div>

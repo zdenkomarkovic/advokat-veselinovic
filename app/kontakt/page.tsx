@@ -44,7 +44,7 @@ export default function KontaktPage() {
             <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
               Advokatska kancelarija Veselinović
             </p>
-            <h1 className="font-serif text-5xl sm:text-6xl font-bold text-white mb-5">
+            <h1 className="text-5xl sm:text-6xl font-bold text-white mb-5">
               Kontaktirajte advokata
             </h1>
             <div className="w-16 h-0.5 bg-gold mx-auto mb-6" />
@@ -66,7 +66,7 @@ export default function KontaktPage() {
                 <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
                   Pišite nam
                 </p>
-                <h2 className="font-serif text-3xl sm:text-4xl font-bold text-primary leading-tight mb-5">
+                <h2 className="text-3xl sm:text-4xl font-bold text-primary leading-tight mb-5">
                   Pošaljite nam poruku
                 </h2>
                 <div className="w-12 h-0.5 bg-gold mb-7" />

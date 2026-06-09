@@ -75,7 +75,7 @@ export function ContactForm() {
         <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mb-6">
           <CheckIcon />
         </div>
-        <h3 className="font-serif text-2xl font-bold text-primary mb-3">
+        <h3 className="text-2xl font-bold text-primary mb-3">
           Poruka je uspešno poslata!
         </h3>
         <p className="text-gray-500 leading-relaxed max-w-md mb-8">

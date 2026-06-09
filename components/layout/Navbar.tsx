@@ -23,6 +23,11 @@ const teamMembers = [
     title: "Advokatski pripravnik",
     href: "/advokati/tijana-balcakovic",
   },
+  {
+    name: "Zdravko Erić",
+    title: "Advokatski pripravnik",
+    href: "/advokati/zdravko-eric",
+  },
   { name: "Aleksandra Spasić", title: "Sekretar", href: "/advokati/aleksandra-spasic" },
 ];
 
@@ -75,7 +80,7 @@ export function Navbar() {
             />
             <div>
               <p className="text-white/90 text-xs uppercase">Адвокатска канцеларија</p>
-              <p className="text-gold font-serif text-xl font-bold leading-none">Веселиновић</p>
+              <p className="text-gold text-xl font-bold leading-none">Веселиновић</p>
             </div>
           </Link>
 
@@ -119,12 +124,13 @@ export function Navbar() {
 
               {/* Dropdown panel */}
               <div
-                className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 w-64 bg-primary border border-white/10 shadow-2xl transition-all duration-200 origin-top ${
+                className={`absolute top-full left-1/2 -translate-x-1/2 pt-3 w-64 transition-all duration-200 origin-top ${
                   teamOpen
                     ? "opacity-100 scale-y-100 pointer-events-auto"
                     : "opacity-0 scale-y-95 pointer-events-none"
                 }`}
               >
+                <div className="bg-primary border border-white/10 shadow-2xl relative">
                 {/* Arrow */}
                 <div className="absolute -top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-primary border-l border-t border-white/10 rotate-45" />
 
@@ -144,6 +150,7 @@ export function Navbar() {
                       <span className="text-gold/70 text-xs mt-0.5">{member.title}</span>
                     </a>
                   ))}
+                </div>
                 </div>
               </div>
             </div>
