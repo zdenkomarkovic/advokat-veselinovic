@@ -61,7 +61,7 @@ export default function TijanaBalcakovicPage() {
           name: "Tijana Balčaković",
           jobTitle: "Advokatski pripravnik",
           url: `${SITE_URL}/advokati/tijana-balcakovic`,
-          image: `${SITE_URL}/MPP08596-2.jpg`,
+          image: `${SITE_URL}/MPP08596-2.webp`,
           worksFor: {
             "@type": "LegalService",
             name: "Advokatska kancelarija Veselinović",
@@ -145,7 +145,7 @@ export default function TijanaBalcakovicPage() {
                 <div className="relative w-72 sm:w-80 lg:w-96">
                   <div className="relative aspect-[3/4] overflow-hidden">
                     <Image
-                      src="/MPP08596-2.jpg"
+                      src="/MPP08596-2.webp"
                       alt="Tijana Balčaković — advokatski pripravnik u Pančevu"
                       fill
                       className="object-cover object-top"

@@ -23,7 +23,7 @@ export default function ZdravkoEricPage() {
           name: "Zdravko Erić",
           jobTitle: "Advokatski pripravnik",
           url: `${SITE_URL}/advokati/zdravko-eric`,
-          image: `${SITE_URL}/MPP08581-2.jpg`,
+          image: `${SITE_URL}/MPP08581-2.webp`,
           worksFor: {
             "@type": "LegalService",
             name: "Advokatska kancelarija Veselinović",
@@ -98,7 +98,7 @@ export default function ZdravkoEricPage() {
                 <div className="relative w-72 sm:w-80 lg:w-96">
                   <div className="relative aspect-[3/4] overflow-hidden">
                     <Image
-                      src="/MPP08581-2.jpg"
+                      src="/MPP08581-2.webp"
                       alt="Zdravko Erić — advokatski pripravnik u Pančevu"
                       fill
                       className="object-cover object-top"

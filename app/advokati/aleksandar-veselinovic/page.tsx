@@ -83,7 +83,7 @@ export default function AleksandarVeselinovicPage() {
           name: "Aleksandar Veselinović",
           jobTitle: "Advokat",
           url: `${SITE_URL}/advokati/aleksandar-veselinovic`,
-          image: `${SITE_URL}/MPP08692-2.jpg`,
+          image: `${SITE_URL}/MPP08692-2.webp`,
           worksFor: {
             "@type": "LegalService",
             name: "Advokatska kancelarija Veselinović",
@@ -173,7 +173,7 @@ export default function AleksandarVeselinovicPage() {
                 <div className="relative w-full max-w-xl lg:max-w-none">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
-                      src="/MPP08692-2.jpg"
+                      src="/MPP08692-2.webp"
                       alt="Aleksandar Veselinović — advokat u Pančevu"
                       fill
                       className="object-cover object-top"

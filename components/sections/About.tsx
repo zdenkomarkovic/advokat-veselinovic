@@ -78,7 +78,7 @@ export function About() {
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
-                src="/MPP08725-2.jpg"
+                src="/MPP08725-2.webp"
                 alt="Advokatska kancelarija Veselinović — profesionalna pravna usluga"
                 fill
                 className="object-cover object-center"

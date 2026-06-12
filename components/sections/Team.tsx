@@ -4,7 +4,7 @@ const members = [
   {
     name: "Aleksandar Veselinović",
     title: "Osnivač i advokat",
-    photo: "/MPP08692-2.jpg",
+    photo: "/MPP08692-2.webp",
     href: "/advokati/aleksandar-veselinovic",
     highlights: [
       "Pravni fakultet Beograd — ocena 9,33",
@@ -17,7 +17,7 @@ const members = [
   {
     name: "Tijana Obradović",
     title: "Advokat partner",
-    photo: "/MPP08664-2.jpg",
+    photo: "/MPP08664-2.webp",
     href: "/advokati/tijana-obradovic",
     highlights: [
       "Pravni fakultet Beograd — teorijsko-pravni smer",
@@ -30,7 +30,7 @@ const members = [
   {
     name: "Jovan Polić",
     title: "Advokat partner",
-    photo: "/MPP08560-2.jpg",
+    photo: "/MPP08560-2.webp",
     href: "/advokati/jovan-polic",
     highlights: [
       "Pravni fakultet za privredu i pravosuđe",
@@ -56,7 +56,7 @@ const members = [
   {
     name: "Tijana Balčaković",
     title: "Advokatski pripravnik",
-    photo: "/MPP08596-2.jpg",
+    photo: "/MPP08596-2.webp",
     href: "/advokati/tijana-balcakovic",
     highlights: [
       "Pravni fakultet Beograd",
@@ -69,7 +69,7 @@ const members = [
   {
     name: "Zdravko Erić",
     title: "Advokatski pripravnik",
-    photo: "/MPP08581-2.jpg",
+    photo: "/MPP08581-2.webp",
     href: "/advokati/zdravko-eric",
     highlights: [
       "Advokatski pripravnik",

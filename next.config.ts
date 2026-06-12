@@ -10,17 +10,6 @@ const nextConfig: NextConfig = {
     remotePatterns: [],
   },
 
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.advokatveselinovic.rs" }],
-        destination: "https://advokatveselinovic.rs/:path*",
-        permanent: true,
-      },
-    ];
-  },
-
   async headers() {
     return [
       {

@@ -75,7 +75,7 @@ export default function JovanPolicPage() {
           name: "Jovan Polić",
           jobTitle: "Advokat partner",
           url: `${SITE_URL}/advokati/jovan-polic`,
-          image: `${SITE_URL}/MPP08560-2.jpg`,
+          image: `${SITE_URL}/MPP08560-2.webp`,
           worksFor: {
             "@type": "LegalService",
             name: "Advokatska kancelarija Veselinović",
@@ -167,7 +167,7 @@ export default function JovanPolicPage() {
                 <div className="relative w-72 sm:w-80 lg:w-96">
                   <div className="relative aspect-[3/4] overflow-hidden">
                     <Image
-                      src="/MPP08560-2.jpg"
+                      src="/MPP08560-2.webp"
                       alt="Jovan Polić — advokat u Pančevu"
                       fill
                       className="object-cover object-top"

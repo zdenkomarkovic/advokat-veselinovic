@@ -8,7 +8,7 @@ export function Hero() {
     >
       {/* Desktop image */}
       <Image
-        src="/hero.jpg"
+        src="/hero.webp"
         alt="Advokatska kancelarija Veselinović — Pančevo"
         fill
         className="hidden sm:block object-cover object-[center_10%]"
@@ -20,7 +20,7 @@ export function Hero() {
       {/* Mobile image — počinje ispod navbara (top-20 = 80px) */}
       <div className="sm:hidden absolute top-16 inset-x-0 z-10 bottom-0">
         <Image
-          src="/hero.jpg"
+          src="/hero.webp"
           alt="Advokatska kancelarija Veselinović — Pančevo"
           fill
           className="object-contain object-top"

@@ -75,7 +75,7 @@ export default function TijanaObradovicPage() {
           name: "Tijana Obradović",
           jobTitle: "Advokat partner",
           url: `${SITE_URL}/advokati/tijana-obradovic`,
-          image: `${SITE_URL}/MPP08664-2.jpg`,
+          image: `${SITE_URL}/MPP08664-2.webp`,
           worksFor: {
             "@type": "LegalService",
             name: "Advokatska kancelarija Veselinović",
@@ -167,7 +167,7 @@ export default function TijanaObradovicPage() {
                 <div className="relative w-72 sm:w-80 lg:w-96">
                   <div className="relative aspect-[3/4] overflow-hidden">
                     <Image
-                      src="/MPP08664-2.jpg"
+                      src="/MPP08664-2.webp"
                       alt="Tijana Obradović — advokat u Pančevu"
                       fill
                       className="object-cover object-top"

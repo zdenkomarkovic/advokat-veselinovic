@@ -33,7 +33,7 @@ export default function HomePage() {
                 width: 200,
                 height: 60,
               },
-              image: `${SITE_URL}/hero.jpg`,
+              image: `${SITE_URL}/hero.webp`,
               telephone: [CONTACT.phone1, CONTACT.phone2],
               email: CONTACT.email,
               foundingDate: "2014-07-03",

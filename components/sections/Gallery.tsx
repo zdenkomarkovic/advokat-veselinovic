@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const photos = [
-  { src: "/MPP08560-2.jpg", alt: "Advokatska kancelarija Veselinović Pančevo — radni prostor" },
-  { src: "/MPP08581-2.jpg", alt: "Advokat Veselinović — advokatska kancelarija u Pančevu" },
-  { src: "/MPP08596-2.jpg", alt: "Advokatska kancelarija Veselinović — profesionalni ambijent" },
-  { src: "/MPP08664-2.jpg", alt: "Advokat Veselinović Pančevo — pravna ekspertiza i iskustvo" },
-  { src: "/MPP08692-2.jpg", alt: "Advokatska kancelarija Veselinović — Vojvode Živojina Mišića 6 Pančevo" },
-  { src: "/MPP08725-2.jpg", alt: "Advokat Veselinović — stručno pravno zastupanje u Pančevu" },
+  { src: "/MPP08560-2.webp", alt: "Advokatska kancelarija Veselinović Pančevo — radni prostor" },
+  { src: "/MPP08581-2.webp", alt: "Advokat Veselinović — advokatska kancelarija u Pančevu" },
+  { src: "/MPP08596-2.webp", alt: "Advokatska kancelarija Veselinović — profesionalni ambijent" },
+  { src: "/MPP08664-2.webp", alt: "Advokat Veselinović Pančevo — pravna ekspertiza i iskustvo" },
+  { src: "/MPP08692-2.webp", alt: "Advokatska kancelarija Veselinović — Vojvode Živojina Mišića 6 Pančevo" },
+  { src: "/MPP08725-2.webp", alt: "Advokat Veselinović — stručno pravno zastupanje u Pančevu" },
 ];
 
 export function Gallery() {
