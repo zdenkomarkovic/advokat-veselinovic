@@ -104,6 +104,17 @@ export default function TijanaObradovicPage() {
           ],
         }}
       />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+            { "@type": "ListItem", position: 2, name: "Advokati", item: `${SITE_URL}/#tim` },
+            { "@type": "ListItem", position: 3, name: "Tijana Obradović", item: `${SITE_URL}/advokati/tijana-obradovic` },
+          ],
+        }}
+      />
       <Navbar />
       <main>
         {/* ── Page header ───────────────────────────────── */}

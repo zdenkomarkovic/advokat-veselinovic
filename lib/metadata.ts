@@ -52,6 +52,7 @@ export function buildMetadata({
       description,
       url: canonicalUrl,
       siteName: SITE_NAME,
+      locale: "sr_RS",
       type,
       images: [
         {

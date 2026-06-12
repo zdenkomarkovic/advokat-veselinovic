@@ -22,6 +22,13 @@ export default function KontaktPage() {
           "@type": "ContactPage",
           name: "Kontakt — Advokatska kancelarija Veselinović",
           url: `${SITE_URL}/kontakt`,
+          breadcrumb: {
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+              { "@type": "ListItem", position: 2, name: "Kontakt", item: `${SITE_URL}/kontakt` },
+            ],
+          },
           mainEntity: {
             "@type": "LegalService",
             name: "Advokatska kancelarija Veselinović",
@@ -31,6 +38,8 @@ export default function KontaktPage() {
               "@type": "PostalAddress",
               streetAddress: "Vojvode Živojina Mišića 6",
               addressLocality: "Pančevo",
+              postalCode: "26000",
+              addressRegion: "Vojvodina",
               addressCountry: "RS",
             },
           },

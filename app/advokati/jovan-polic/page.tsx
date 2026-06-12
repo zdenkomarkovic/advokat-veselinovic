@@ -104,6 +104,17 @@ export default function JovanPolicPage() {
           ],
         }}
       />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+            { "@type": "ListItem", position: 2, name: "Advokati", item: `${SITE_URL}/#tim` },
+            { "@type": "ListItem", position: 3, name: "Jovan Polić", item: `${SITE_URL}/advokati/jovan-polic` },
+          ],
+        }}
+      />
       <Navbar />
       <main>
         {/* ── Page header ───────────────────────────────── */}

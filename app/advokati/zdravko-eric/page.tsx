@@ -38,6 +38,17 @@ export default function ZdravkoEricPage() {
           email: CONTACT.email,
         }}
       />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Početna", item: SITE_URL },
+            { "@type": "ListItem", position: 2, name: "Advokati", item: `${SITE_URL}/#tim` },
+            { "@type": "ListItem", position: 3, name: "Zdravko Erić", item: `${SITE_URL}/advokati/zdravko-eric` },
+          ],
+        }}
+      />
       <Navbar />
       <main>
         {/* ── Page header ───────────────────────────────── */}
