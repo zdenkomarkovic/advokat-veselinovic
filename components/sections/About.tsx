@@ -35,7 +35,7 @@ export function About() {
             </p>
             <h2 className="text-4xl sm:text-5xl font-bold text-primary leading-tight mb-6">
               Vaši pravni interesi —<br />
-              naša prioritet
+              prioritet
             </h2>
             <div className="w-16 h-0.5 bg-gold mb-8" />
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
